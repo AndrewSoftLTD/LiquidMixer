@@ -13,7 +13,7 @@ uint8_t selected;
 uint8_t minc = 38;
 uint8_t maxc = 42;
 bool instLCD = false;
-Encoder myEnc(5,6) // Encoder lábak
+Encoder myEnc(5,6); // Encoder lábak
 
 
 void setup() {
