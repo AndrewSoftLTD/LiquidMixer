@@ -5,6 +5,14 @@
 #include "EEPROM.h"
 #include "LCDIC2.h"
 #include "Encoder.h"
+#include <menu.h>
+#include <menuIO/serialOut.h>
+#include <menuIO/serialIn.h>
+
+using namespace Menu;
+
+#define LEDPIN LED_BUILTIN
+
 
 DS18B20 ds(2);
 LCDIC2 lcd(0x27,16,2);
